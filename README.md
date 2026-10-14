@@ -29,6 +29,7 @@ Claude Code ищет скиллы пользователя. Как получи�
 
 ```bash
 git clone <адрес Gitea>/<организация>/commits.git ~/projects/commits
+mkdir -p ~/.claude/skills
 ln -s ~/projects/commits ~/.claude/skills/commits
 ```
 
