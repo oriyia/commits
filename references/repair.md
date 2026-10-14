@@ -50,7 +50,7 @@ cp <tmp>/full <файл>            # рабочее дерево — снова
 ```
 git worktree add --detach <tmp>/staged HEAD
 git diff --staged --binary | git -C <tmp>/staged apply
-# в <tmp>/staged — команды lint, format, unit из check.conf
+# в <tmp>/staged — проверки проекта перед коммитом: линтер, форматер, модульные тесты
 git worktree remove --force <tmp>/staged
 ```
 
